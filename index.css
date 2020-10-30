@@ -1,0 +1,78 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.header {
+  background: #368dfd;
+  padding: 20px 0;
+  color: white;
+}
+
+.app-heading {
+  text-align: center;
+  margin: 0;
+}
+
+.app-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: space-evenly;
+  margin: 15px 0 0 0;
+  font-size: 13px;
+}
+
+.app-menu a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+/* these are the styles for the connection list and boxes */
+.connections_list {
+  padding: 10px;
+  margin: 10px;
+  border: solid black 2px;
+}
+
+.connection_box {
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  border: solid blue 2px;
+}
+
+.profile_box {
+  padding: 10px;
+  border: solid orange 2px;
+  margin: 10px;
+}
+
+.resume_mentor {
+  padding: 10px;
+  border: solid red 2px;
+  margin: 10px;
+}
+
+.about_mentor {
+  padding: 10px;
+  border: solid green 2px;
+  margin: 10px;
+}
+
+.submit_message_form {
+  border: solid blue 2px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 30px;
+
+}
