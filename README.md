@@ -1,5 +1,5 @@
 # thinkful-capstone-1
-https://rshuken.github.io/thinkful-capstone-1/
+
 
 
 The wireframes are inside this git with a link here to view: https://rshuken.github.io/thinkful-capstone-1/
