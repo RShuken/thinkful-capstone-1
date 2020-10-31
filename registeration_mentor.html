@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir='ltr'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Shuken Capstone</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="app-heading">Connectful</h1>
+        <nav>
+            <ul class="app-menu">
+                <li>
+                    <a href="/dashboard.html">Login</a>
+                </li>
+                <li>
+                    <a href="/registeration.html">Register</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="submit" class='register_user_form' id='register_user_form'>
+            <p>Please fill out all required * fields:</p>
+            <label for="user_name">Name*</label>
+            <input type="text" name="user_name" id="">
+            <label for="user_email">Email*</label>
+            <input type="email" name="" id="">
+            <label for="user_password">Password*</label>
+            <input type="password" name="" id="">
+            <label for="password_match">Confirm Password*</label>
+            <input type="password" name="password_match" id="password_match">
+            <label for="user_industry">Industry</label>
+            <select name="user_industry" id="user_industry">
+                <option value="1">UI UX</option>
+                <option value="2">Developer</option>
+                <option value="3">Marketer</option>
+                <option value="4">Sales</option>
+                <option value="5">PR</option>
+            </select>
+            <button class='register_user_btn'>Register</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir='ltr'>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Shuken Capstone</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="app-heading">Connectful</h1>
+        <nav>
+            <ul class="app-menu">
+                <li>
+                    <a href="/dashboard.html">Login</a>
+                </li>
+                <li>
+                    <a href="/registeration.html">Register</a>
+                </li>
+                <li>
+                    <a href="/about.html">About</a>
+                </li>
+                <li>
+                    <a href="/profile.html">Profile</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class='profile_info'>
+            <h1>Complete your profile in order to make a connection</h1>
+            <h2>Your profile is 0 out of 3 steps to complete, you got this!</h2>
+        </div>
+        <form action="submit" class='register_user_form' id='register_user_form'>
+            <p>Please fill out all fields:</p>
+
+            <label for="user_industry_to_match">What industry do you want to learn about?</label>
+            <select name="user_industry_to_match" id="user_industry">
+                <option value="1">UI UX</option>
+                <option value="2">Developer</option>
+                <option value="3">Marketer</option>
+                <option value="4">Sales</option>
+                <option value="5">PR</option>
+            </select>
+            <label for="user_resume">Your Resume</label>
+            <textarea name="user_resume" id="user_resume" cols="30" rows="10"></textarea>
+            <label for="user_introduction">Write your introduction</label>
+            <textarea name="user_introduction" id="user_introduction" cols="30" rows="10"></textarea>
+            <button class='register_user_btn' type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>

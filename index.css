@@ -33,6 +33,23 @@ body {
   text-transform: uppercase;
 }
 
+/*these are the styles for the home page */
+.why_connectful {
+  padding: 10px;
+  margin: 10px;
+}
+
+.mentor_with_us {
+  padding: 10px;
+  margin: 10px;
+}
+
+.about_mentor {
+  padding: 10px;
+  border: solid green 2px;
+  margin: 10px;
+}
+
 /* these are the styles for the connection list and boxes */
 .connections_list {
   padding: 10px;
@@ -61,11 +78,7 @@ body {
   margin: 10px;
 }
 
-.about_mentor {
-  padding: 10px;
-  border: solid green 2px;
-  margin: 10px;
-}
+/* these are styles for registration */
 
 .submit_message_form {
   border: solid blue 2px;
@@ -75,4 +88,37 @@ body {
   padding: 10px;
   margin: 30px;
 
+}
+
+.registration_choice {
+  text-align: center;
+  padding-top: 20%;
+}
+
+.register_user_form {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: blue solid 2px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+
+.register_user_btn {
+  margin: 10px;
+}
+
+/* these styles are for the profile */
+
+.profile_info {
+  margin: 10px;
+  padding 10px;
+  border: black solid 2px;
+}
+
+.user_resume {
+  margin: 10px;
+  padding 10px;
+  border: black solid 2px;
 }
